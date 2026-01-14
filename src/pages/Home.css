@@ -11,21 +11,25 @@
 }
 
 .typing-text {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 4rem;
-    color: #00ff88;
-    text-shadow: 0 0 10px rgba(0, 255, 136, 0.5),
+    font-family: 'HackGen Nerd', monospace;
+    font-size: 3rem;
+    color: #ffffff;
+    /* text-shadow: 0 0 10px rgba(0, 255, 136, 0.5),
         0 0 20px rgba(0, 255, 136, 0.3),
         0 0 30px rgba(0, 255, 136, 0.2);
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1em; */
+
     margin-bottom: 1.5rem;
 }
 
 .cursor {
     display: inline-block;
+    width: 2px;
+    height: 1em;
+    background-color: #ffffff;
     animation: blink 1s step-end infinite;
-    color: #00ff88;
-    font-weight: 100;
+    vertical-align: middle;
+    margin-left: 2px;
 }
 
 @keyframes blink {
@@ -81,7 +85,7 @@
 
 .btn-primary {
     background: linear-gradient(135deg, #00ff88 0%, #00d4ff 100%);
-    color: #1a1a2e;
+    color: #000000;
     box-shadow: 0 4px 15px rgba(0, 255, 136, 0.3);
 }
 

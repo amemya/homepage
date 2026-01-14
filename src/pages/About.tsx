@@ -8,12 +8,8 @@ function About() {
                 <div className="about-content">
                     <div className="about-text">
                         <p>
-                            こんにちは！私はWeb開発者です。
-                            モダンなテクノロジーを使って、美しく機能的なWebサイトを作成しています。
                         </p>
                         <p>
-                            React、TypeScript、Node.jsなどの技術を活用して、
-                            ユーザー体験を重視したアプリケーションを開発しています。
                         </p>
                     </div>
                     <div className="skills">

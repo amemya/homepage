@@ -8,7 +8,7 @@ function Header() {
         <header className="header">
             <div className="header-container">
                 <Link to="/" className="logo">
-                    <span className="logo-text">MyPortfolio</span>
+                    <span className="logo-text">Portfolio</span>
                 </Link>
                 <nav className="nav">
                     <Link

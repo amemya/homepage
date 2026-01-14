@@ -3,7 +3,7 @@ import './Home.css'
 
 function Home() {
     const prefix = "Hello, I'm"
-    const phrases = [" Amemiya", " programmer"]
+    const phrases = [" Amemiya", " Programmer", " Photographer", " Mechanick", " Designer"]
 
     const [displayText, setDisplayText] = useState("")
     const [phraseIndex, setPhraseIndex] = useState(0)
@@ -76,7 +76,7 @@ function Home() {
             <div className="hero">
                 <h1 className="typing-text">
                     {displayText}
-                    <span className="cursor">|</span>
+                    <span className="cursor"></span>
                 </h1>
                 <p className={`subtitle ${showSubtitle ? 'visible' : ''}`}>
                     Welcome to my portfolio
